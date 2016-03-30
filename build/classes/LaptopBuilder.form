@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="hdGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="ramGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gpuGroup">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="submitButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ddr3gb8" min="-2" max="-2" attributes="0"/>
+                          <Component id="ddr3gb4" min="-2" max="-2" attributes="0"/>
+                          <Component id="ssd512gb" min="-2" max="-2" attributes="0"/>
+                          <Component id="sata4gb" min="-2" max="-2" attributes="0"/>
+                          <Component id="topLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="hdLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ssd256gb" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ramLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ddr3gb2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cpuDropdown" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="gpuSingle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="gpuDouble" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="gpuDropdown1" min="-2" pref="155" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="gpuDropdown2" min="-2" pref="153" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="topLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="hdLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="sata4gb" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ssd256gb" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ssd512gb" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ramLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ddr3gb2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ddr3gb4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ddr3gb8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="cpuDropdown" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="gpuSingle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gpuDouble" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="gpuDropdown1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="gpuDropdown2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="66" max="32767" attributes="0"/>
+              <Component id="submitButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="topLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Build a laptop"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hdLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hard Drive"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="sata4gb">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="hdGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4TB SATA"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sata4gbActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ssd256gb">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="hdGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="256GB SSD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ssd256gbActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ssd512gb">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="hdGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="512GB SSD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ssd512gbActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="submitButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submitButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ramLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RAM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ddr3gb2">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="ramGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2GB DDR3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ddr3gb2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ddr3gb4">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="ramGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4GB DDR3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ddr3gb4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ddr3gb8">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="ramGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="8GB DDR3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ddr3gb8ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cpuDropdown">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="AMD Athalon x8"/>
+            <StringItem index="1" value="AMD Athalon x4"/>
+            <StringItem index="2" value="AMD Athalon x2"/>
+            <StringItem index="3" value="Intel i7-5820K (6 core)"/>
+            <StringItem index="4" value="Intel i7-5930K (6 core)"/>
+            <StringItem index="5" value="Intel i7-5960K (8 core)"/>
+            <StringItem index="6" value="Intel i5-3330K (4 core)"/>
+            <StringItem index="7" value="Intel i5-3830K (6 core)"/>
+            <StringItem index="8" value="Intel i5-4330K (4 core)"/>
+            <StringItem index="9" value="Intel i5-4370K (8 core)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cpuDropdownActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="gpuSingle">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="gpuGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Single"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gpuSingleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="gpuDouble">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="gpuGroup"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Double"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gpuDoubleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="gpuDropdown1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="NVidia GE Force Titan X"/>
+            <StringItem index="1" value="NVidia GE Force 980-TI"/>
+            <StringItem index="2" value="NVidia GE Force 750"/>
+            <StringItem index="3" value="NVidia GE Force 760"/>
+            <StringItem index="4" value="NVidia GE Force 770"/>
+            <StringItem index="5" value="NVidia GE Force 780"/>
+            <StringItem index="6" value="NVidia GE Force 790"/>
+            <StringItem index="7" value="NVidia GE Force 650"/>
+            <StringItem index="8" value="NVidia GE Force 660"/>
+            <StringItem index="9" value="NVidia GE Force 670"/>
+            <StringItem index="10" value="NVidia GE Force 680"/>
+            <StringItem index="11" value="NVidia GE Force 690"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gpuDropdown1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="gpuDropdown2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="NVidia GE Force Titan X"/>
+            <StringItem index="1" value="NVidia GE Force 980-TI"/>
+            <StringItem index="2" value="NVidia GE Force 750"/>
+            <StringItem index="3" value="NVidia GE Force 760"/>
+            <StringItem index="4" value="NVidia GE Force 770"/>
+            <StringItem index="5" value="NVidia GE Force 780"/>
+            <StringItem index="6" value="NVidia GE Force 790"/>
+            <StringItem index="7" value="NVidia GE Force 650"/>
+            <StringItem index="8" value="NVidia GE Force 660"/>
+            <StringItem index="9" value="NVidia GE Force 670"/>
+            <StringItem index="10" value="NVidia GE Force 680"/>
+            <StringItem index="11" value="NVidia GE Force 690"/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gpuDropdown2ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
